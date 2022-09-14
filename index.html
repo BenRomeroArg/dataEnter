@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U.S.C.S.S Nostromo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body text="white">
+  <div class="contenedor">
+    <h1>Weyland-Yutani corp.</h1>
+    <h2>Voluntarios para viajes interplanetarios</h2>
+    <h2>Carguero comercial <b> Nostromo</b>-<i>clase Juggernaut</i>-</h2><hr>
+    <form>
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="number" placeholder="Edad" id="edad">
+      <input type="text"id="origen" placeholder="Rango">
+      <button id="boton" type="reset" onclick="captura();">Enter</button>
+    </form>
+    <table class="table" id="tabla">
+      <thead class="thead-inverse">
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Rango</th>
+          <th>Status</th>
+        </tr>
+      </thead><hr>
+    </table><hr>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
